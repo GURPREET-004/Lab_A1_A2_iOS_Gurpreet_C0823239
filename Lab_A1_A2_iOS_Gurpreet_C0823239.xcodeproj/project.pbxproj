@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		048E519826FA5DB90022528F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E519726FA5DB90022528F /* AppDelegate.swift */; };
 		048E519A26FA5DB90022528F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E519926FA5DB90022528F /* SceneDelegate.swift */; };
-		048E519C26FA5DB90022528F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E519B26FA5DB90022528F /* ViewController.swift */; };
 		048E519F26FA5DB90022528F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048E519D26FA5DB90022528F /* Main.storyboard */; };
 		048E51A226FA5DB90022528F /* Lab_A1_A2_iOS_Gurpreet_C0823239.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048E51A026FA5DB90022528F /* Lab_A1_A2_iOS_Gurpreet_C0823239.xcdatamodeld */; };
 		048E51A426FA5DB90022528F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048E51A326FA5DB90022528F /* Assets.xcassets */; };
 		048E51A726FA5DB90022528F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048E51A526FA5DB90022528F /* LaunchScreen.storyboard */; };
+		048E51AF26FA5DBF0022528F /* ProvidersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E51AE26FA5DBF0022528F /* ProvidersTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		048E519426FA5DB90022528F /* Lab_A1_A2_iOS_Gurpreet_C0823239.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab_A1_A2_iOS_Gurpreet_C0823239.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048E519726FA5DB90022528F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		048E519926FA5DB90022528F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		048E519B26FA5DB90022528F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		048E519E26FA5DB90022528F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		048E51A126FA5DB90022528F /* Lab_A1_A2_iOS_Gurpreet_C0823239.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab_A1_A2_iOS_Gurpreet_C0823239.xcdatamodel; sourceTree = "<group>"; };
 		048E51A326FA5DB90022528F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048E51A626FA5DB90022528F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048E51A826FA5DB90022528F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048E51AE26FA5DBF0022528F /* ProvidersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvidersTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +60,10 @@
 			children = (
 				048E519726FA5DB90022528F /* AppDelegate.swift */,
 				048E519926FA5DB90022528F /* SceneDelegate.swift */,
-				048E519B26FA5DB90022528F /* ViewController.swift */,
 				048E519D26FA5DB90022528F /* Main.storyboard */,
 				048E51A326FA5DB90022528F /* Assets.xcassets */,
 				048E51A526FA5DB90022528F /* LaunchScreen.storyboard */,
+				048E51AE26FA5DBF0022528F /* ProvidersTableViewController.swift */,
 				048E51A826FA5DB90022528F /* Info.plist */,
 				048E51A026FA5DB90022528F /* Lab_A1_A2_iOS_Gurpreet_C0823239.xcdatamodeld */,
 			);
@@ -140,9 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048E519C26FA5DB90022528F /* ViewController.swift in Sources */,
 				048E519826FA5DB90022528F /* AppDelegate.swift in Sources */,
 				048E51A226FA5DB90022528F /* Lab_A1_A2_iOS_Gurpreet_C0823239.xcdatamodeld in Sources */,
+				048E51AF26FA5DBF0022528F /* ProvidersTableViewController.swift in Sources */,
 				048E519A26FA5DB90022528F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
